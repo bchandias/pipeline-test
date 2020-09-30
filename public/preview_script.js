@@ -1,0 +1,40 @@
+/* eslint-disable linebreak-style */
+window.liquid = {
+  siteUrl: 'https://parquearauco.modyo.be/parque-arauco-kennedy',
+  notFoundPage: 'https://parquearauco.modyo.be/parque-arauco-kennedy/posts/not-found',
+  apiHost: 'https://api-uat.parauco.com/',
+  apiMallId: 1,
+  appKey: '88ed5442771c4e39a74279f0f227422a',
+  minLengthCharacters: 2,
+  trazadoRuta : {
+    urlMapa: 'https://map-uat.parauco.com',
+  },
+  tiendas: {
+    text: {
+      tituloBuscador: 'Buscador de Tiendas (template)',
+      tituloCategorias: 'Buscador de Categorías (template)',
+      tituloBuscadorGastro: 'Buscador gastronómico (template)',
+      tituloTrazaRuta: 'Encuentra tu tienda (template)',
+      subtituloTrazaRuta: 'Selecciona la tienda a la que quieres ir (template)',
+      subtituloBuscador: 'Encuentra tu tienda favorita (template)',
+      subtituloBuscadorGastro: 'Encuentra tu restaurante favorito (template)',
+      tituloBuscadorCateogoria: 'Buscador de Categorías (template)',
+      btnTiendas: 'Tiendas (template)',
+      btnGastro: 'Restaurantes (template)',
+      btnCategorias: 'Categorías (template)',
+      phTiendas: 'Tienda (template)',
+      phRestaurantes: 'Restaurante (template)',
+      phCategorias: 'Categoría (ingresa más de un caracter - template)',
+    },
+    resources: {
+      iconClock: 'https://parquearauco.modyocdn.com/uploads/493a2b5a-c9da-4d09-8c2c-211ec388a1e9/original/clock-ico.svg',
+      iconGps: 'https://parquearauco.modyocdn.com/uploads/d426b6c5-747b-4e39-a3e2-ee6959d5335f/original/gps.svg',
+      iconDelivery: 'https://parquearauco.modyocdn.com/uploads/3b92e8a4-420f-4697-80fd-4ff94fbeaf92/original/1.svg',
+      iconPickUp: 'https://parquearauco.modyocdn.com/uploads/d2f23a52-44e2-4124-8aff-7cf2543d8e50/original/2.svg',
+      iconClickAndCollect: 'https://parquearauco.modyocdn.com/uploads/f8a595d7-1dd6-4173-9637-806eda49bac0/original/3.svg',
+      iconPresencial: 'https://parquearauco.modyocdn.com/uploads/bf9a66e1-9a67-4328-b491-d39006c1f20f/original/4.svg',
+      iconPregunta: 'https://parquearauco.modyocdn.com/uploads/e8e4617d-d68c-4547-890a-7a3a065a6273/original/5.svg',
+    },
+		estiloAraucoExpress: false,
+  },
+};
